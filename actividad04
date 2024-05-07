@@ -1,0 +1,21 @@
+<diagram>
+  <entity name="Sucursal">
+    <attribute name="numero"/>
+    <attribute name="direccion"/>
+    <attribute name="ciudad"/>
+  </entity>
+  
+  <entity name="Empleado">
+    <attribute name="CUIL"/>
+    <attribute name="Nombre"/>
+    <attribute name="FechaNacimiento"/>
+    <attribute name="Domicilio"/>
+    <attribute name="Telefono"/>
+    <attribute name="Funcion"/>
+  </entity>
+  
+  <relationship name="Trabaja_en">
+    <entity entity-name="Empleado"/>
+    <entity entity-name="Sucursal"/>
+  </relationship>
+</diagram>
